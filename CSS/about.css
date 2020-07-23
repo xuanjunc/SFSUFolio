@@ -12,6 +12,9 @@
   position: relative;
   z-index: 1;
 }
+.about {
+  background-color: #d0e9c6;
+}
 
 .btn {
   width: 100%;
