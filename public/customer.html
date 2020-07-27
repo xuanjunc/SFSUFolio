@@ -20,7 +20,7 @@
         <nav class="navbar navbar-light bg-light justify-content-between">
           <a href="../index.html"><img src="../SFSU-Folio.png" /></a>
           <form class="form-inline">
-            <div class="dropdown">
+            <div class="dropdown mt-3">
               <button
                 class="btn btn-secondary dropdown-toggle"
                 type="button"
@@ -43,20 +43,91 @@
               </div>
             </div>
             <input
-              class="form-control mr-sm-2"
+              class="form-control mr-sm-2 mt-3"
               type="search"
               style="margin: auto;"
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            <button class="btn btn-outline-success mt-3" type="submit">
               Search
             </button>
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            <button class="btn btn-outline-success mt-3" type="submit">
               Login/ Signup
             </button>
           </form>
         </nav>
+        <div class="continer ml-5 mt-5 p-5">
+          <h3>
+            Want to report a problem?
+            <small class="text-muted">tell us</small>
+          </h3>
+          <form class="form-inline">
+            <div class="form-group mb-2">
+              <label for="staticEmail2" class="sr-only">Name</label>
+              <input
+                type="text"
+                readonly
+                class="form-control-plaintext"
+                value="Name"
+              />
+            </div>
+            <div class="form-group mx-sm-3 mb-2">
+              <label for="inputPassword2" class="sr-only">Name</label>
+              <input
+                type="password"
+                class="form-control"
+                id="name"
+                placeholder="Name"
+              />
+            </div>
+          </form>
+
+          <form class="form-inline">
+            <div class="form-group mb-2">
+              <label for="staticEmail2" class="sr-only">Email</label>
+              <input
+                type="text"
+                readonly
+                class="form-control-plaintext"
+                id="staticEmail2"
+                value="Email"
+              />
+            </div>
+            <div class="form-group mx-sm-3 mb-2">
+              <label for="inputPassword2" class="sr-only">Email</label>
+              <input
+                type="password"
+                class="form-control"
+                id="inputPassword2"
+                placeholder="Email"
+              />
+            </div>
+          </form>
+          <form class="form-inline">
+            <div class="form-group mb-2">
+              <label for="staticEmail2" class="sr-only">Issues/Problems</label>
+              <input
+                type="text"
+                readonly
+                class="form-control-plaintext"
+                id="staticEmail2"
+                value="Issues/Problems"
+              />
+            </div>
+            <div class="form-group mx-sm-3 mb-2">
+              <label for="inputPassword2" class="sr-only"
+                >Issues/Problems</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+          </form>
+          <button type="button" class="btn btn-secondary">Submit</button>
+        </div>
       </div>
       <footer id="footer">
         <div class="row">
