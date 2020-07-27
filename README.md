@@ -20,6 +20,6 @@ Customer Support - Momo Sun
 
 Careers - Aaron Colmenares
 
-Profile Page -
+Profile Page - Hussain Ashfaque
 
 Search Page -
