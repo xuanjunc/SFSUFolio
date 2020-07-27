@@ -58,75 +58,57 @@
           </form>
         </nav>
         <div class="continer ml-5 mt-5 p-5">
-          <h3>
+          <h3 class="mb-5">
             Want to report a problem?
             <small class="text-muted">tell us</small>
           </h3>
-          <form class="form-inline">
-            <div class="form-group mb-2">
-              <label for="staticEmail2" class="sr-only">Name</label>
-              <input
-                type="text"
-                readonly
-                class="form-control-plaintext"
-                value="Name"
-              />
+
+          <form>
+            <div class="form-group row">
+              <label for="inputName" class="col-sm-2 col-form-label"
+                >Name</label
+              >
+              <div class="col-sm-10">
+                <input
+                  type="name"
+                  class="form-control"
+                  id="inputName"
+                  placeholder="Name"
+                />
+              </div>
             </div>
-            <div class="form-group mx-sm-3 mb-2">
-              <label for="inputPassword2" class="sr-only">Name</label>
-              <input
-                type="password"
-                class="form-control"
-                id="name"
-                placeholder="Name"
-              />
+            <div class="form-group row">
+              <label for="inputEmail" class="col-sm-2 col-form-label"
+                >Email</label
+              >
+              <div class="col-sm-10">
+                <input
+                  type="Email"
+                  class="form-control"
+                  id="inputEmail"
+                  placeholder="Email"
+                />
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label for="inputProblems" class="col-sm-2 col-form-label"
+                >Issues</label
+              >
+              <div class="col-sm-10">
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  placeholder="Report your problems"
+                  rows="3"
+                ></textarea>
+              </div>
             </div>
           </form>
 
-          <form class="form-inline">
-            <div class="form-group mb-2">
-              <label for="staticEmail2" class="sr-only">Email</label>
-              <input
-                type="text"
-                readonly
-                class="form-control-plaintext"
-                id="staticEmail2"
-                value="Email"
-              />
-            </div>
-            <div class="form-group mx-sm-3 mb-2">
-              <label for="inputPassword2" class="sr-only">Email</label>
-              <input
-                type="password"
-                class="form-control"
-                id="inputPassword2"
-                placeholder="Email"
-              />
-            </div>
-          </form>
-          <form class="form-inline">
-            <div class="form-group mb-2">
-              <label for="staticEmail2" class="sr-only">Issues/Problems</label>
-              <input
-                type="text"
-                readonly
-                class="form-control-plaintext"
-                id="staticEmail2"
-                value="Issues/Problems"
-              />
-            </div>
-            <div class="form-group mx-sm-3 mb-2">
-              <label for="inputPassword2" class="sr-only"
-                >Issues/Problems</label
-              >
-              <textarea
-                class="form-control"
-                id="exampleFormControlTextarea1"
-                rows="3"
-              ></textarea>
-            </div>
-          </form>
-          <button type="button" class="btn btn-secondary">Submit</button>
+          <button type="button" class="btn btn-secondary mx-5 px-auto my-auto">
+            Submit
+          </button>
         </div>
       </div>
       <footer id="footer">
